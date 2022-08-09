@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // ceci est un commentaire
+        /*Ecrire un programme qui permet de calculer le determinant d'un polinome du second degres*/
+        let a, b, c, x1, x2, x0;
+
+        a = prompt("Saisir a");
+        b = prompt("Saisir b");
+        c = prompt("Saisir c");
+
+        let delta = (b * b) - 4 * (a * c);
+
+        if (delta > 0) {
+            x1 = -b - (Math.sqrt(delta)) / (2 * a);
+            x2 = -b + (Math.sqrt(delta)) / (2 * a);
+            alert(`il y'a deux solutions: ${x1}, ${x2}`);
+        }
+        else {
+            if (delta == 0) {
+                x0 = -b/(2*a);
+                alert(`il y'a une solution double:${x0s} `);
+            }
+            else {
+                alert(`on a pas de solution`);
+
+            }
+
+        }
+    </script>
+</body>
+
+</html>
