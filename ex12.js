@@ -1,7 +1,7 @@
 // Declaration classique de fonction
-function print(a) {
+/*function print(a) {
     document.getElementsByClassName("first")[0].innerHTML = `${a}`;
-}
+}*/
 //deuxieme maniere de declarer une fonction
 // Anonyme
 
@@ -17,7 +17,7 @@ setTimeout(
 
 // troisieme methode de declarer une fonction
 // Sous forme de variable
-let somme = (a, b) => {
+/*let somme = (a, b) => {
     return (a + b);
 }
 
@@ -28,4 +28,4 @@ let difference = function (a, b) {
 
 print(somme(45, 6));
 
-print(difference(124, 33));
+print(difference(124, 33));*/
